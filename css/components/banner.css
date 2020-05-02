@@ -1,0 +1,75 @@
+/* Banners - Index*/
+
+.banner-index-index {
+  /* 1. Set a background image - specify image to use as a div // filter = linear-gradiant*/
+  background-image: linear-gradient(-50deg, rgba(0,0,0, 0.1) 0%, rgba(0,0,0, 0.3) 50%), url("https://images.unsplash.com/photo-1541795795328-f073b763494e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+  /* 2. Make the background image cover the banner div - cover =  will make the image cover the div */
+  linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%);
+  background-size: cover;
+  /* 3. Center the image - center image exactly on center of the div */
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+}
+
+.banner-index h1 {
+  color: white;
+  font-size: 60px;
+  text-align: left;
+  padding-left:0;
+  font-weight: bold;
+}
+.banner-index h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  padding-left:0;
+}
+
+.banner-index h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  padding-left:0;
+}
+
+.banner-index-entrees {
+    background-image: linear-gradient(-50deg, rgba(0,0,0, 0.1) 0%, rgba(0,0,0, 0.3) 50%), url(https://images.unsplash.com/photo-1586865205715-d2933da01afd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%): ;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+
+.banner-index-plats {
+    background-image: linear-gradient(-50deg, rgba(0,0,0, 0.1) 0%, rgba(0,0,0, 0.3) 50%), url(https://images.unsplash.com/photo-1504649346668-2cc86afaa2e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1259&q=80);
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%): ;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+
+.banner-index-desserts {
+    background-image: linear-gradient(-50deg, rgba(0,0,0, 0.1) 0%, rgba(0,0,0, 0.3) 50%), url(https://images.unsplash.com/photo-1523033904333-243d0283acae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%): ;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+.banner-index-autres{
+    background-image: linear-gradient(-50deg, rgba(0,0,0, 0.1) 0%, rgba(0,0,0, 0.3) 50%), url(https://images.unsplash.com/photo-1576020301507-5d5a00982053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%): ;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
